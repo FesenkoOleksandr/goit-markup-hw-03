@@ -1,0 +1,227 @@
+:root {
+ --main-color: #2E2F42;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+.header-navigation {
+  background: #FFFFFF;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4D5AE5;
+}
+
+.title-logo {
+  color: var(--main-color);
+}
+.list {
+  list-style: none;
+}
+
+.header-menu-item-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-contact-information {
+  font-style: normal
+}
+
+.contact-info,
+.contact-info {
+  font-weight: 500;
+  color: #434455;
+}
+
+.header-menu-item-link:focus,
+.header-contact-mail:focus,
+.header-contact-phone:focus,
+.header-menu-item-link:hover,
+.header-contact-mail:hover,
+.header-contact-phone:hover {
+  color: #404BBF;
+}
+
+.main-section {
+  background: var(--main-color);
+  width: 1440px;
+  height: 600px;
+}
+
+.main-section-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.main-section-button {
+  font-family: inherit;
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+.main-section-button:focus,
+.main-section-button:hover {
+  background:#404BBF;
+}
+
+.main-section-article-header {
+  display: none;
+}
+
+.main-section-article-title {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.main-section-article-text {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-article-header {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.main-section-our-team {
+  width: 1440px;
+  background: #F4F4FD;
+}
+.our-team-item-list {
+  background-color: #FFFFFF;
+}
+
+.header-our-team {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.our-team-item-header {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.our-team-item-text {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer-section {
+  background: var(--main-color);
+}
+
+.title-logo-footer {
+  color: #F4F4FD;
+}
+
+.footer-article {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+}
+
+.portfolio-header {
+  visibility: hidden;
+}
+
+.portfolio-section-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+  background-color: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+
+.portfolio-section-button:hover,
+.portfolio-section-button:focus {
+  background-color: #404BBF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.portfolio-work-list-title {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.portfolio-work-list-kind {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}

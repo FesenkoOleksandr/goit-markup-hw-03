@@ -70,13 +70,13 @@ body {
 
 .header-contact-information {
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contact-information {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 

@@ -66,6 +66,8 @@ body {
 .header-menu {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-contact-information {
@@ -77,8 +79,6 @@ body {
 .contact-information {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 
@@ -239,7 +239,7 @@ body {
 .main-section-our-team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .our-team-item-container {
